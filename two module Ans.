@@ -1,0 +1,4 @@
+let sumNumber = [1, 2, 3, 4, 5]
+
+let number = sumNumber.reduce((a,b) => a+b);
+console.log(number) // output : 15
