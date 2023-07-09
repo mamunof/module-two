@@ -40,6 +40,49 @@ function getLargestNumber(a, b){
 getLargestNumber(10, 5)
 console.log(result)  // output : pls pass my leargest value true is 10
 
+// Exercise 7
+
+function getAddressCity(address){
+    return address 
+
+}
+const address = getAddressCity({
+    street: '123 Main St',
+    country: 'USA' 
+})
+console.log(address);
+
+// Exercise 8
+
+function doubleNumbers(value){
+    return value
+}
+const mapNumber = doubleNumbers([1, 2, 3, 4, 5]).map(everyValue => everyValue*2 );
+console.log(mapNumber);
+
+// Exercise 9
+
+function filterEvenNumbers(value){
+    return value
+}
+const filter = filterEvenNumbers([1, 2, 3, 4, 5]).filter(everyValue => everyValue % 2 );
+console.log(filter);
+
+// Exercise 10
+
+function sumArray(sum){
+    return sum
+}
+const sumNumber = sumArray([1, 2, 3, 4, 5]).reduce((a,b) => a+b);
+console.log(sumNumber);
+
+// Exercise 11
+
+function sortNumbers(sortArr){
+    return sortArr
+}
+const sortNum = sortNumbers([5, 2, 8, 1, 4]).sort();
+console.log(sortNum);
 
 
 
