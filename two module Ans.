@@ -1,4 +1,52 @@
+Exercise 2:
+
 let sumNumber = [1, 2, 3, 4, 5]
 
 let number = sumNumber.reduce((a,b) => a+b);
 console.log(number) // output : 15
+
+// Exercise 3
+function createGreeting(name){
+    return gretingMassag = `Hello, ${name} ! Welcome to our website.`
+}
+createGreeting("Alice")
+console.log(gretingMassag)  // output : Hello, Alice ! Welcome to our website.
+
+// Exercise 4
+function isEven(number){
+    return  result = number === "7" ? "even" : "odd"
+}
+isEven(7)
+console.log(result)    // output : "odd"
+
+// Exercise 5
+// function multiply(a, b) {
+//     return a * b;  
+// }
+multiply = (a, b) => console.log(a * b) 
+multiply(3, 2)
+
+// Exercise 6
+
+function getLargestNumber(a, b){
+    if(a > b || a < b ){
+        result = `pls pass my leargest value ${a>b} is ${a} `
+    }else{
+        result = `and lowest value ${a<b} is ${b}`
+    }
+    return result
+}
+
+getLargestNumber(10, 5)
+console.log(result)  // output : pls pass my leargest value true is 10
+
+
+
+
+
+
+
+
+
+
+
